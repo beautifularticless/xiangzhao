@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 Not Found</title>
+  <!-- 引入 Ant Design CSS（还原你原本的样式） -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/antd@5/dist/reset.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .result-404 {
+      text-align: center;
+      max-width: 500px;
+      width: 100%;
+    }
+    .result-404 .status {
+      font-size: 80px;
+      line-height: 1;
+      color: #aaa;
+      margin-bottom: 20px;
+    }
+    .result-404 .title {
+      font-size: 32px;
+      color: #262626;
+      margin-bottom: 12px;
+    }
+    .result-404 .sub-title {
+      font-size: 16px;
+      color: #8c8c8c;
+      margin-bottom: 30px;
+    }
+    .result-404 .btn {
+      background-color: #165dff;
+      color: #fff;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .result-404 .btn:hover {
+      background-color: #0e42cc;
+    }
+  </style>
+</head>
+<body>
+  <div class="result-404">
+    <div class="status">404</div>
+    <h1 class="title">404</h1>
+    <p class="sub-title">Sorry, the page you visited does not exist.</p>
+    <button class="btn" onclick="window.location.href='/'">Back Home</button>
+  </div>
+</body>
+</html>
